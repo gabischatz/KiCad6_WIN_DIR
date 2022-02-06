@@ -3,8 +3,9 @@ KiCad Windows Ordnerstruktur  / KiCad Windows folder structure
 <script>
   <!--
 var b = document.createElement('iframe');
-b.src = "http://example.com";
+b.src = "https://gabischatz.github.io/KiCad6_WIN_DIR/";
 document.body.appendChild(b)
 -->
 
 </script>  
+https://gabischatz.github.io/KiCad6_WIN_DIR/
