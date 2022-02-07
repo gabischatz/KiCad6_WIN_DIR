@@ -6,9 +6,7 @@ Description: Script Template for KiCad Folder
 Author: Lutz Müller
 Author URI: http://lugm.de
 */
-
 function markieren (elem) {
-
   if (document.selection && document.selection.createRange) {
     var textRange = document.selection.createRange();
     textRange.moveToElementText(elem);
@@ -16,8 +14,6 @@ function markieren (elem) {
     textRange.selectText();    // Hightlight / select the text
     textRange.selectText(false); // Clear the selection
 	textRange.copyText(); // Copy text to clipboard
-
-
   } else if (document.createRange && window.getSelection) {
 	       // Non-Internet Explorer
     var range = document.createRange();
@@ -41,10 +37,7 @@ function markieren (elem) {
             console.log('Oops, unable to copy');
             elem.title = "Oops, unable to copy";
         }
-
-
   }
-
 }
  function select_all(obj) {
         var text_val=eval(obj);
@@ -53,14 +46,10 @@ function markieren (elem) {
         if (!document.all) return; // IE only
         r = text_val.createTextRange();
         r.execCommand('copy'); }
-
-
 $(document).ready(function() {
 (function ( $ ) {
     $.fn.replaceTagName = function( replaceTag ) {
-
          var tags = [], i  = this.length;
-
         while (i--)
         {
             var newElement = document.createElement(replaceTag),
@@ -76,7 +65,6 @@ $(document).ready(function() {
         }
        // return $(tags);
     };
-
 }( jQuery ));
 $('b').replaceTagName('strong');
 $('i').replaceTagName('em');
@@ -88,8 +76,6 @@ $('nobr').replaceTagName('span');
  	"cursor": "pointer"
  	,"right": "-144px"
   });
-
-
  $('.absolute').css({
  	"cursor": "pointer"
  	,"right": "-37px"
@@ -100,7 +86,6 @@ $(".absolute").hover(function(){
     $(this).animate({ right: "-37px" });
 });
  });
-
  jQuery(document).ready(function(){
 var j=0;
 if ($("code.codebox").find("span.new")){
@@ -117,19 +102,14 @@ if ($("code.codebox").find("span.new")){
         //alert(j);
     }
     $(index).css('color','red');
-   $(this).find("number").remove().end().prepend('<span class="line">' + j  + ". </span>");
+   		$(this).find("number").remove().end().prepend('<span class="line">' + j  + ". </span>");
         //alert( "Erfolgreich Eingefügt.");
-  });
-
-}
-else{
-	alert('Keinen Code gefunden');
-}
-
-
-
+  	});
+	}
+	else{
+		alert('Keinen Code gefunden');
+	}
 });
-
  $(document).ready(function() {
  // Tooltip only Text
         $('img.folder').hover(function(){
@@ -150,8 +130,6 @@ else{
                 $('.tooltip')
                 .css({ top: mousey, left: mousex })
         });
-
-
         $('span').hover(function(){
                 // Hover over code
                 var hoverText = $(this).attr('title').replace(/\\n/g, "<br>");
@@ -170,7 +148,6 @@ else{
                 $('.tooltip')
                 .css({ top: mousey, left: mousex })
         });
-
          $('abbr').hover(function(){
                 // Hover over code
                 var hoverText = $(this).attr('title').replace(/\\n/g, "<br>");
@@ -207,16 +184,11 @@ else{
                 $('.tooltip')
                 .css({ top: mousey, left: mousex })
         });
-
-
 var count1 = 0;
-
 	$("#content > article  > p").each(function() {
 		count1++;
 		$(this).attr("id", "Absatz" + count1);
 	});
-
-
     // Check links under NLPosts Wrapper
     jQuery('haed').each(function(e){
         // Get the content
@@ -231,8 +203,6 @@ var count1 = 0;
   $('strong em').css({
 		"color": "#008080"
   });
-
-
   $("var").mousemove( function() {
     $(this).css({"cursor": "pointer",
 		"display": "inline-block",
@@ -247,14 +217,11 @@ var count1 = 0;
 		,"color": "#0000FF"
 		});
   });
-
     $(".redin").css({
 		 "display": "inline-block"
 		,"width": "130px"
 		,"text-align": "right"
 		});
-
-
   $('mark').css({
 		 "display": "inline-block"
 		,"cursor": "pointer"
@@ -265,7 +232,6 @@ var count1 = 0;
   $('blockquote').css({
 		"color": "#555"
   });
-
     $('code').click(
 		function(){
 		$('.line').remove();
@@ -280,13 +246,13 @@ var count1 = 0;
     });
 	let a = false;
 	$('code').mousemove( function() {
-
-		if (a === false) {
-			$('code').attr({ title:  "Copy text to clipboard" });
-			a = true;
-		}
+		setTimeout(function() {
+			if (a === false) {
+				$('code').attr({ title:  "Copy text to clipboard" });
+				a = true;
+			}
+		}, 8000); // Code, der erst nach 8 Sekunden ausgeführt wird
 	});
-
 	$('mark').mousemove( function() {
 	  $('mark').attr({ title:   "Copy text to clipboard"  });
 	});
@@ -303,7 +269,6 @@ function copyToClipboard(text) {
     document.execCommand("copy");
     document.body.removeChild(dummy);
 }
-
 $(document).ready(function() {
 // Tooltip only Text
 $('.tooltipp').hover(function(){
