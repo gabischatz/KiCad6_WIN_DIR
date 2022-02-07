@@ -332,4 +332,7 @@ code{
    -ms-hyphens: auto;
    hyphens: auto;
 }
+code.line-through{
+	text-decoration:line-through;
+}
 -->
