@@ -254,7 +254,9 @@ var count1 = 0;
 		}, 8000); // Code, der erst nach 8 Sekunden ausgeführt wird
 	});
 	$('mark').mousemove( function() {
-	  $('mark').attr({ title:   "Copy text to clipboard"  });
+		setTimeout(function() {
+	  		$('mark').attr({ title:   "Copy text to clipboard"  });
+		}, 8000); // Code, der erst nach 8 Sekunden ausgeführt wird		
 	});
 });
 function copyToClipboard(text) {
