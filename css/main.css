@@ -3,7 +3,7 @@
 Theme Name: Style main.css
 Theme URI: http://lugm.de
 Description: Style Template for KiCad Folder
-Author: Lutz MÃ¼ller
+Author: Lutz Müller
 Author URI: http://lugm.de
 */
 <!--
@@ -256,6 +256,48 @@ ul {
 #file {
     background-image: url(../img/file.png);
 }
+
+#kicad_digikey_liebraries {
+    background-image: url(../img/kicad_digikey_liebraries.png);
+}
+
+#kicad-programme-symbols-lib {
+    background-image: url(../img/kicad-programme-symbols-lib.png);
+}
+
+#kicad-programme-footprints-bretty {
+    background-image: url(../img/kicad-programme-footprints-bretty.png);
+}
+
+#kicad-programme-3d-step {
+    background-image: url(../img/kicad-programme-3d-step.png);
+}
+
+#kicad-programme-3d-3dshapes {
+    background-image: url(../img/kicad-programme-3d-3dshapes.png);
+}
+
+#kicad-programme-footprints-kicad_mod{
+    background-image: url(../img/kicad-programme-footprints-kicad_mod.png);
+}
+
+#kicad_digikey_liebraries{
+	background-image: url(../img/kicad_digikey_liebraries.png);
+}
+
+#kicad_digikey_footprints{
+	background-image: url(../img/kicad_digikey_footprints.png);
+}
+
+#kicad_digikey_symbols{
+	background-image: url(../img/kicad_digikey_symbols.png);
+}
+
+#kicad_digikey_3d{
+	background-image: url(../img/kicad_digikey_3d.png);
+}
+
+
 #user-ducuments_data{
     background-image: url(../img/user-ducuments_data.png);
 
@@ -330,6 +372,10 @@ dt.child-six {
     margin-left: 22rem;
 }
 
+dt.child-seven {
+    margin-left: 26rem;
+}
+
 dt.one {
     margin-left: 4.5rem;
 }
@@ -352,6 +398,11 @@ dt.five {
 
 dt.six {
     margin-left: 24.5rem;
+}
+
+
+dt.seven {
+    margin-left: 28.5rem;
 }
 
 mark{
