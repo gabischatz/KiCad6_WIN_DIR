@@ -17,7 +17,6 @@ body {
     margin-left: 2rem;
     font: normal normal 14px/20px Helvetica, Arial, sans-serif;
 }
-
 article{
     padding: 1rem;
     margin: auto;
@@ -27,280 +26,217 @@ article{
 	border-top-right-radius: 4px;
 	border-bottom-left-radius: 1em;
 }
-
 dd.folder {
     font-family: Arial;
     font-size: 16pt;
     color: #4E4E4E;
 }
-
 dd.title {
     color: #0000FF;
     font: bolder normal 25pt/25pt serif;
 }
-
 dd.kicad mark{
-    font-family: Arial;
+    font-family: serif;
     font-size: 16pt;
     color: #FF0000;
 }
-
-dd.win mark{
+dd.mykicad mark{
     font-family: Arial;
+    font-size: 16pt;
+    color: #00D733;
+}
+dd.win mark{
+    font-family: sans-serif;
     font-size: 16pt;
     color: #0000FF;
 }
-
 ul {
     list-style-type: none;
     position: absolute;
 }
-
 #your-computer {
     background-image: url(../img/your-computer.png);
     width: 2.6em !important;
 }
-
 #program-files {
     background-image: url(../img/program-files.png);
 }
-
 #program-files-kicad {
     background-image: url(../img/program-files-kicad.png);
 }
-
 #kicad-programme-60 {
     background-image: url(../img/kicad-programme-6.0.png);
 }
-
 #kicad-programme-share {
     background-image: url(../img/kicad-programme-share.png);
 }
-
 #kicad-programme-symbols {
     background-image: url(../img/kicad-programme-symbols.png);
 }
-
 #kicad-programme-footprints {
     background-image: url(../img/kicad-programme-footprints.png);
 }
-
 #kicad-programme-3d {
     background-image: url(../img/kicad-programme-3d.png);
 }
-
 #kicad-programme-template {
     background-image: url(../img/kicad-programme-template.png);
 }
-
 #kicad-programme-scripting {
     background-image: url(../img/kicad-programme-scripting.png);
 }
-
 #kicad-programme-schemas {
     background-image: url(../img/kicad-programme-schemas.png);
 }
-
 #kicad-programme-resurces {
     background-image: url(../img/kicad-programme-resurces.png);
 }
-
 #kicad-programme-internat {
     background-image: url(../img/kicad-programme-internat.png);
 }
-
 #kicad-programme-demos {
     background-image: url(../img/kicad-programme-demos.png);
 }
-
 #users {
     background-image: url(../img/users.png);
 }
-
 #user {
     background-image: url(../img/user.png);
 }
-
 #user-ducuments {
     background-image: url(../img/user-ducuments.png);
 }
-
 #user-kicad {
     background-image: url(../img/user-kicad.png);
 }
-
 #user-kicad-60 {
     background-image: url(../img/user-kicad-6.0.png);
 }
-
 #user-kicad-libraries {
     background-image: url(../img/user-kicad-libraries.png);
 }
-
 #user-kicad-symbols {
     background-image: url(../img/user-kicad-symbols.png);
 }
-
 #user-kicad-footprints {
     background-image: url(../img/user-kicad-footprints.png);
 }
-
 #user-kicad-template {
     background-image: url(../img/user-kicad-template.png);
 }
-
 #user-kicad-3d {
     background-image: url(../img/user-kicad-3d.png);
 }
-
 #user-kicad-scripting {
     background-image: url(../img/user-kicad-scripting.png);
 }
-
 #user-kicad-3rd {
     background-image: url(../img/user-kicad-3rd.png);
 }
-
 #user-kicad-projects {
     background-image: url(../img/user-kicad-projects.png);
 }
-
 #user-kicad-projets-name {
     background-image: url(../img/user-kicad-projets-name.png);
 }
-
 #user-kicad-backups {
     background-image: url(../img/user-kicad-backups.png);
 }
-
 #user-kicad-project-libraries {
     background-image: url(../img/user-kicad-project-libraries.png);
 }
-
 #user-kicad-projects-symbols {
     background-image: url(../img/user-kicad-projects-symbols.png);
 }
-
 #user-kicad-projects-footprints {
     background-image: url(../img/user-kicad-projects-footprints.png);
 }
-
 #user-kicad-projects-3d {
     background-image: url(../img/user-kicad-projects-3d.png);
 }
-
 #user-appdata {
     background-image: url(../img/user-appdata.png);
 }
-
 #user-roaming {
     background-image: url(../img/user-roaming.png);
 }
-
 #appdata-kicad-3d {
     background-image: url(../img/appdata-kicad-3d.png);
 }
-
 #appdata-kicad-60 {
     background-image: url(../img/appdata-kicad-6.0.png);
 }
-
 #appdata-kicad-scripting {
     background-image: url(../img/appdata-kicad-scripting.png);
 }
-
 #appdata-kicad-plugins {
     background-image: url(../img/appdata-kicad-plugins.png);
 }
-
 #kicad6-folders {
     background-image: url(../img/kicad6-folders.png);
 }
-
 #appdata-kicad {
     background-image: url(../img/appdata-kicad.png);
 }
-
 #example-kicad_pro {
     background-image: url(../img/example-kicad_pro.png);
 }
-
 #example-kicad_pcb {
     background-image: url(../img/example-kicad_pcb.png);
 }
-
 #example-kicad_sch {
     background-image: url(../img/example-kicad_sch.png);
 }
-
 #example-kicad_prl {
     background-image: url(../img/example-kicad_prl.png);
 }
-
 #example-job-gbrjob {
     background-image: url(../img/example-job-gbrjob.png);
 }
-
 #fp-info-cache {
     background-image: url(../img/fp-info-cache.png);
 }
-
 #pyshell_pcbnew_startup {
     background-image: url(../img/pyshell_pcbnew_startup.png);
 }
-
 #fp-lib-table {
     background-image: url(../img/fp-lib-table.png);
 }
-
 #file {
     background-image: url(../img/file.png);
 }
-
 #kicad_digikey_liebraries {
     background-image: url(../img/kicad_digikey_liebraries.png);
 }
-
 #kicad-programme-symbols-lib {
     background-image: url(../img/kicad-programme-symbols-lib.png);
 }
-
 #kicad-programme-footprints-bretty {
     background-image: url(../img/kicad-programme-footprints-bretty.png);
 }
-
 #kicad-programme-3d-step {
     background-image: url(../img/kicad-programme-3d-step.png);
 }
-
 #kicad-programme-3d-3dshapes {
     background-image: url(../img/kicad-programme-3d-3dshapes.png);
 }
-
 #kicad-programme-footprints-kicad_mod{
     background-image: url(../img/kicad-programme-footprints-kicad_mod.png);
 }
-
 #kicad_digikey_liebraries{
 	background-image: url(../img/kicad_digikey_liebraries.png);
 }
-
 #kicad_digikey_footprints{
 	background-image: url(../img/kicad_digikey_footprints.png);
 }
-
 #kicad_digikey_symbols{
 	background-image: url(../img/kicad_digikey_symbols.png);
 }
-
 #kicad_digikey_3d{
 	background-image: url(../img/kicad_digikey_3d.png);
 }
-
-
 #user-ducuments_data{
     background-image: url(../img/user-ducuments_data.png);
-
 }
 img {
     width: 2.5em;
@@ -308,22 +244,18 @@ img {
     background-position: center;
     background-size: 100% 100%;
 }
-
 img.last-child,img.child-one,img.child,img.child-two,img.child-three,img.child-four,img.child-fifve,img.child-six {
     width: 2rem;
     height: 2em;
     position: relative;
     background-image: url(../img/last-child.png);
 }
-
 img.child-one, img.child-two,img.child-three,img.child-four,img.child-fifve,img.child-six {
     background-image: url(../img/child-one.png)!important;
 }
-
 img.child {
     background-image: url(../img/child.png)!important;
 }
-
 dl.box {
     flex-direction: row;
     justify-content : flex-start ;
@@ -338,73 +270,55 @@ dl.box {
     -webkit-align-items: center;
     -ms-flex-align: center;
 }
-
 dt, dd {
     display: block;
     margin-inline-start: 5px; font-size: x-large;
 }
-
 dt {
     height: 3rem;
 }
-
 dt.child-one {
     margin-left: 2rem;
 }
-
 dt.child-two {
     margin-left: 6rem;
 }
-
 dt.child-three {
     margin-left: 10rem;
 }
-
 dt.child-four {
     margin-left: 14rem;
 }
-
 dt.child-five {
     margin-left: 18rem;
 }
-
 dt.child-six {
     margin-left: 22rem;
 }
-
 dt.child-seven {
     margin-left: 26rem;
 }
-
 dt.one {
     margin-left: 4.5rem;
 }
-
 dt.two {
     margin-left: 8.5rem;
 }
-
 dt.three {
     margin-left: 12.5rem;
 }
-
 dt.four {
     margin-left: 16.5rem;
 }
-
 dt.five {
     margin-left: 20.5rem;
 }
-
 dt.six {
     margin-left: 24.5rem;
 }
-
-
 dt.seven {
     margin-left: 28.5rem;
 }
-
 mark{
 	display: inline-block;
 	cursor: pointer;
@@ -418,5 +332,4 @@ code{
    -ms-hyphens: auto;
    hyphens: auto;
 }
-
 -->
